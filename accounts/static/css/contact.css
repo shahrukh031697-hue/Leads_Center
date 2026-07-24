@@ -83,6 +83,11 @@
     font-size: 22px;
 
 }
+.contact-icon img{
+     width: 48px;
+    height: 48px;
+     object-fit: contain;
+}
 
 
 .contact-item h5 {
