@@ -75,13 +75,9 @@ WSGI_APPLICATION = 'Leads_Center.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'crmdb',
-        'USER': 'postgres',
-        'PASSWORD': 'shah',
-        'HOST': 'localhost',
-        'PORT': '5432',
-}
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
 }
 
 
