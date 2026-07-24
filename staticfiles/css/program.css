@@ -1,0 +1,187 @@
+/* =========================
+   PROGRAMS SECTION
+========================= */
+
+.programs-section {
+
+    padding: 100px 0;
+
+    background: #f8fafc;
+
+}
+
+
+.section-heading {
+
+    max-width: 700px;
+
+    margin: 0 auto;
+
+}
+
+
+.section-tag {
+
+    display: inline-block;
+
+    color: #2563eb;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 15px;
+
+}
+
+
+.section-heading h2 {
+
+    font-size: 42px;
+
+    font-weight: 700;
+
+    color: #111827;
+
+    margin-bottom: 18px;
+
+}
+
+
+.section-heading p {
+
+    color: #6b7280;
+
+    font-size: 17px;
+
+    line-height: 1.7;
+
+}
+
+
+/* Program Card */
+
+.program-card {
+
+    height: 100%;
+
+    padding: 35px;
+
+    background: white;
+
+    border-radius: 16px;
+
+    border: 1px solid #e5e7eb;
+
+    transition: all 0.3s ease;
+
+}
+
+
+.program-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: 0 15px 35px rgba(15, 23, 42, 0.12);
+
+}
+
+
+.program-icon {
+
+    width: 65px;
+
+    height: 65px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 14px;
+
+    background: #f3f3f3;
+
+    color: #2563eb;
+
+    font-size: 30px;
+
+    margin-bottom: 25px;
+
+}
+
+.program-icon img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+.program-card h3 {
+
+    font-size: 30px;
+
+    font-weight: 700;
+
+    color: #111827;
+
+    margin-bottom: 8px;
+
+}
+
+
+.program-card h5 {
+
+    font-size: 16px;
+
+    color: #374151;
+
+    margin-bottom: 18px;
+
+}
+
+
+.program-card p {
+
+    color: #6b7280;
+
+    line-height: 1.7;
+
+    margin-bottom: 25px;
+
+}
+
+
+.program-link {
+
+    color: #2563eb;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+}
+
+
+.program-link i {
+
+    margin-left: 5px;
+
+    transition: margin-left 0.3s ease;
+
+}
+
+
+.program-card:hover .program-link i {
+
+    margin-left: 12px;
+
+}

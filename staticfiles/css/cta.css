@@ -1,0 +1,153 @@
+/* =========================
+   CTA SECTION
+========================= */
+
+.cta-section {
+
+    padding: 100px 0;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1e3a8a,
+            #2563eb
+        );
+
+    color: white;
+
+}
+
+
+.cta-content {
+
+    max-width: 750px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+}
+
+
+.cta-tag {
+
+    display: inline-block;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 20px;
+
+    color: #dbeafe;
+
+}
+
+
+.cta-content h2 {
+
+    font-size: 48px;
+
+    line-height: 1.2;
+
+    margin-bottom: 20px;
+
+}
+
+
+.cta-content h2 span {
+
+    display: block;
+
+    color: #bfdbfe;
+
+}
+
+
+.cta-content p {
+
+    max-width: 650px;
+
+    margin: 0 auto 35px;
+
+    color: #dbeafe;
+
+    line-height: 1.8;
+
+    font-size: 17px;
+
+}
+
+
+.cta-buttons {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 15px;
+
+}
+
+
+.cta-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 14px 25px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+
+}
+
+
+.primary-cta-btn {
+
+    background: white;
+
+    color: #1e3a8a;
+
+}
+
+
+.primary-cta-btn:hover {
+
+    background: #f1f5f9;
+
+    color: #1e3a8a;
+
+    transform: translateY(-3px);
+
+}
+
+
+.whatsapp-cta-btn {
+
+    border: 1px solid white;
+
+    color: white;
+
+}
+
+
+.whatsapp-cta-btn:hover {
+
+    background: white;
+
+    color: #1e3a8a;
+
+    transform: translateY(-3px);
+
+}
