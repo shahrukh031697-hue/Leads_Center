@@ -65,7 +65,7 @@ def contact(request):
             "message": message
         }
 
-        google_sheet_url = "https://script.google.com/macros/s/AKfycbywZFsE3QPEzo178ZioWdRnY9HSppMNoOIgiA_qlVpnieYf8P_-eJdO-dYSgcSaCBQ/execgit"
+        google_sheet_url = "https://script.google.com/macros/s/AKfycbywZFsE3QPEzo178ZioWdRnY9HSppMNoOIgiA_qlVpnieYf8P_-eJdO-dYSgcSaCBQ/exec"
 
         requests.post(
             google_sheet_url,
