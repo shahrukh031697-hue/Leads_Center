@@ -1092,83 +1092,58 @@ Home | Educational Institute
                         Send Us a Message
                     </h3>
 
-                    <form>
+                  <form method="POST" action="{% url 'contact' %}">
+    {% csrf_token %}
 
-                        <div class="row g-3">
+    <div class="row g-3">
 
-                            <div class="col-md-6">
+        <div class="col-md-6">
+            <input type="text"
+                   name="name"
+                   class="form-control"
+                   placeholder="Your Name"
+                   required>
+        </div>
 
-                                <input type="text"
-                                       class="form-control"
-                                       placeholder="Your Name">
+        <div class="col-md-6">
+            <input type="tel"
+                   name="phone"
+                   class="form-control"
+                   placeholder="Phone Number"
+                   required>
+        </div>
 
-                            </div>
+        <div class="col-12">
+            <input type="email"
+                   name="email"
+                   class="form-control"
+                   placeholder="Email Address">
+        </div>
 
+        <div class="col-12">
+            <select name="program" class="form-select" required>
+                <option value="" selected>Select Program</option>
+                <option value="CA">CA</option>
+                <option value="ACCA">ACCA</option>
+            </select>
+        </div>
 
-                            <div class="col-md-6">
+        <div class="col-12">
+            <textarea name="message"
+                      class="form-control"
+                      rows="5"
+                      placeholder="Your Message"></textarea>
+        </div>
 
-                                <input type="tel"
-                                       class="form-control"
-                                       placeholder="Phone Number">
+        <div class="col-12">
+            <button type="submit" class="submit-btn">
+                Send Message
+                <i class="bi bi-send"></i>
+            </button>
+        </div>
 
-                            </div>
-
-
-                            <div class="col-12">
-
-                                <input type="email"
-                                       class="form-control"
-                                       placeholder="Email Address">
-
-                            </div>
-
-
-                            <div class="col-12">
-
-                                <select class="form-select">
-
-                                    <option selected>
-                                        Select Program
-                                    </option>
-
-                                    <option>
-                                        CA
-                                    </option>
-
-                                    <option>
-                                        ACCA
-                                    </option>
-
-                                </select>
-
-                            </div>
-
-
-                            <div class="col-12">
-
-                                <textarea class="form-control"
-                                          rows="5"
-                                          placeholder="Your Message">
-                                </textarea>
-
-                            </div>
-
-
-                            <div class="col-12">
-
-                                <button type="submit"
-                                        class="submit-btn">
-
-                                    Send Message
-                                    <i class="bi bi-send"></i>
-
-                                </button>
-
-                            </div>
-
-                        </div>
-
-                    </form>
+    </div>
+</form>
 
                 </div>
 
