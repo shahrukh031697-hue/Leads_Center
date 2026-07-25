@@ -42,12 +42,23 @@
                     </a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link"
-                       href="#">
-                        About Us
-                    </a>
-                </li>
+               <li class="nav-item dropdown-hover">
+
+    <a href="#" class="nav-link">
+        About Us
+        <i class="bi bi-chevron-down"></i>
+    </a>
+
+    <div class="about-dropdown">
+
+        <a href="{% url 'principal_message' %}">
+            <i class="bi bi-person-badge"></i>
+            Principal's Message
+        </a>
+
+    </div>
+
+</li>
 
                 <li class="nav-item">
                     <a class="nav-link"

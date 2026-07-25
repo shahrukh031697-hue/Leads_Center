@@ -75,3 +75,6 @@ def contact(request):
         return redirect('home')
 
     return redirect('home')
+
+def principal_message(request):
+    return render(request, 'principal_message.html')
