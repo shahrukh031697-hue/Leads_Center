@@ -97,18 +97,9 @@
     font-size: 20px;
 
     font-weight: 700;
-    overflow: hidden;git add .
-git commit -m "Fix student image size"
-git push origin main
-
+    overflow: hidden;
 }
 
-.student-avatar img {
-    width: 50px !important;
-    height: 50px !important;
-    object-fit: cover !important;
-    display: block !important;
-}
 
 
 .student-info h5 {
