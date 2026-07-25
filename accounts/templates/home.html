@@ -13,7 +13,34 @@ Home | Educational Institute
          HERO SECTION
     ========================== -->
 
-    <section class="hero-section mt-5">
+    <!--<section class="hero-section mt-5">-->
+{% load static %}
+
+<section class="hero-section">
+
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="{% static 'videos/herovideo.mp4' %}" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+
+        <h1>
+            Build Your Future
+        </h1>
+
+        <p>
+            Start your journey with PAC Peshawar.
+        </p>
+
+        <a href="#" class="btn btn-primary">
+            Explore Programs
+        </a>
+
+    </div>
+
+</section>
 
         <div class="container">
 
