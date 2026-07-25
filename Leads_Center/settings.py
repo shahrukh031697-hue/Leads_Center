@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-ye-%+u9nsul-%qvf%tv(2n1246!f)jr&x9))ab54%5tj9vs8kd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-
 ALLOWED_HOSTS = ['shahrukh512.pythonanywhere.com']
+#ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -80,7 +80,16 @@ DATABASES = {
     }
 }
 
-
+#DATABASES = {
+  #  'default': {
+      #  'ENGINE': 'django.db.backends.postgresql',
+       # 'NAME': 'crmdb',
+       # 'USER': 'postgres',
+       # 'PASSWORD': 'shah',
+       # 'HOST': 'localhost',
+       # 'PORT': '5432',
+    #}
+#}
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
 
@@ -117,3 +126,6 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+]

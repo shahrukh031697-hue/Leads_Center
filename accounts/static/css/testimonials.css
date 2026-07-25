@@ -76,7 +76,7 @@
 }
 
 
-.student-avatar {
+.student-avatar{
 
     width: 50px;
 
@@ -97,7 +97,15 @@
     font-size: 20px;
 
     font-weight: 700;
+    overflow: hidden;
 
+}
+
+.student-avatar img {
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: cover !important;
+    display: block !important;
 }
 
 
