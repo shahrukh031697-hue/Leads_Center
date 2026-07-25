@@ -1,0 +1,172 @@
+.principal-message-section {
+    padding: 100px 0;
+    background: #f8fafc;
+}
+
+.page-heading {
+    margin-bottom: 60px;
+}
+
+.section-subtitle {
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.page-heading h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin: 12px 0;
+    color: #0f172a;
+}
+
+.page-heading p {
+    color: #64748b;
+}
+
+
+/* Main Card */
+
+.principal-message-card {
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 60px;
+
+    background: white;
+    padding: 35px;
+
+    border-radius: 24px;
+
+    box-shadow: 0 15px 40px rgba(15, 23, 42, 0.08);
+}
+
+
+/* Principal Image */
+
+.principal-image-wrapper {
+    position: relative;
+}
+
+.principal-image-wrapper img {
+    width: 100%;
+    height: 500px;
+
+    object-fit: cover;
+
+    border-radius: 18px;
+}
+
+
+/* Name Overlay */
+
+.principal-name {
+    position: absolute;
+
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+
+    padding: 18px;
+
+    background: rgba(15, 23, 42, 0.88);
+
+    border-radius: 12px;
+
+    color: white;
+}
+
+.principal-name h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.principal-name p {
+    margin: 5px 0 0;
+    color: #cbd5e1;
+}
+
+
+/* Message */
+
+.principal-message-content {
+    padding: 25px 15px;
+}
+
+.message-label {
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.principal-message-content h2 {
+    margin: 15px 0 25px;
+
+    font-size: 38px;
+    color: #0f172a;
+}
+
+.principal-message-content p {
+    color: #475569;
+
+    font-size: 17px;
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+}
+
+
+/* Signature */
+
+.principal-signature {
+    margin-top: 35px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.principal-signature strong {
+    font-size: 20px;
+    color: #0f172a;
+}
+
+.principal-signature span {
+    color: #64748b;
+}
+
+
+/* Responsive */
+
+@media (max-width: 991px) {
+
+    .principal-message-card {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .principal-image-wrapper img {
+        height: 450px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .principal-message-section {
+        padding: 60px 15px;
+    }
+
+    .page-heading h1 {
+        font-size: 32px;
+    }
+
+    .principal-message-card {
+        padding: 20px;
+    }
+
+    .principal-message-content h2 {
+        font-size: 30px;
+    }
+
+}

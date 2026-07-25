@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="principal-message-section">
+
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="page-heading text-center">
+
+            <span class="section-subtitle">
+                ABOUT PAC
+            </span>
+
+            <h1>
+                Principal's Message
+            </h1>
+
+            <p>
+                A message from the Principal
+            </p>
+
+        </div>
+
+
+        <!-- Principal Message Card -->
+        <div class="principal-message-card">
+
+            <!-- Principal Image -->
+            <div class="principal-image-wrapper">
+
+                <img src="{% static 'images/principal.jpeg' %}"
+                     alt="Principal">
+
+                <div class="principal-name">
+
+                    <h3>
+                        Principal's Name
+                    </h3>
+
+                    <p>
+                        Principal, PAC Peshawar
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Message -->
+            <div class="principal-message-content">
+
+                <span class="message-label">
+                    PRINCIPAL'S MESSAGE
+                </span>
+
+                <h2>
+                    Welcome to PAC
+                </h2>
+
+                <p>
+                    It gives me immense pleasure to welcome you to
+                    Professionals' Academy of Commerce. At PAC, we are
+                    committed to providing quality education and creating
+                    an environment where students can learn, grow and
+                    achieve their goals.
+                </p>
+
+                <p>
+                    Our mission is to develop not only academically
+                    successful students but also confident, responsible
+                    and future-ready professionals. We believe that
+                    dedication, discipline and continuous learning are
+                    the keys to success.
+                </p>
+
+                <p>
+                    I encourage every student to take full advantage of
+                    the opportunities available at PAC and work with
+                    determination towards building a successful future.
+                </p>
+
+                <div class="principal-signature">
+
+                    <strong>
+                        Principal
+                    </strong>
+
+                    <span>
+                        Professionals' Academy of Commerce
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}
