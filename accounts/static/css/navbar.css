@@ -14,13 +14,6 @@
 
 
 
-
-
-
-
-
-
-
 .navbar-brand {
 
     font-size: 24px;
@@ -43,54 +36,41 @@
 
 
 
-.dropdown-hover {
+.nav-item.dropdown-hover {
     position: relative;
 }
 
-.about-dropdown {
+.nav-item.dropdown-hover .about-dropdown {
     position: absolute;
     top: 100%;
     left: 0;
-
-    min-width: 220px;
-
+    width: 220px;
     background: white;
     padding: 10px;
-
     border-radius: 10px;
-
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 
     opacity: 0;
     visibility: hidden;
-
     transform: translateY(10px);
-
     transition: all 0.3s ease;
-
-    z-index: 1000;
+    z-index: 9999;
 }
 
-.dropdown-hover:hover .about-dropdown {
+.nav-item.dropdown-hover:hover .about-dropdown {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
 
-.about-dropdown a {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
+.nav-item.dropdown-hover .about-dropdown a {
+    display: block;
     padding: 12px 15px;
-
     color: #333;
     text-decoration: none;
-
-    border-radius: 6px;
 }
 
-.about-dropdown a:hover {
+.nav-item.dropdown-hover .about-dropdown a:hover {
     background: #f1f5f9;
     color: #2563eb;
 }
