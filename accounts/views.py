@@ -3,7 +3,8 @@ from django.shortcuts import render, redirect
 import requests
 
 
-
+def home_page(request):
+    return render(request, 'home.html')
 
 
 def contact(request):
