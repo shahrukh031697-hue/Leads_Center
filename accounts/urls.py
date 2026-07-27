@@ -17,8 +17,8 @@ path(
         name='caprogram'
     ),
 path(
-        'acca_program/',
-        views.accaprogram(),
+        'accaprogram/',
+        views.acca_program(),
         name='accaprogram'
     ),
 ]
