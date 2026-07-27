@@ -44,3 +44,5 @@ def ca_program(request):
 
 def acca_program(request):
     return render(request, 'accaprogram.html')
+def achievement_page(request):
+    return render(request, 'achievement.html')

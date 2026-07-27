@@ -21,4 +21,14 @@ path(
         views.acca_program,
         name='accaprogram'
     ),
+path(
+        'achievement/',
+        views.achievement_page,
+        name='achievement'
+    ),
+
+
+
+
+
 ]

@@ -1,0 +1,225 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Student Achievements | PAC College Peshawar
+{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/achievement.css' %}">
+{% endblock %}
+
+
+{% block content %}
+
+<section class="achievement-hero">
+
+    <div class="container">
+
+        <span class="achievement-tag">
+            STUDENT SUCCESS STORIES
+        </span>
+
+        <h1>
+            Dreams That Became
+            <span>Achievements</span>
+        </h1>
+
+        <p>
+            At PAC, our students don't just study for qualifications.
+            They build confidence, achieve excellence and create a successful future.
+        </p>
+
+    </div>
+
+</section>
+
+
+<section class="student-achievements">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span>OUR ACHIEVERS</span>
+
+            <h2>
+                Meet Our
+                <strong>Successful Students</strong>
+            </h2>
+
+            <p>
+                Hear directly from our students about their journey,
+                experience and success at PAC.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4">
+
+
+            <!-- Student 1 -->
+            <div class="col-md-4">
+
+                <div class="achievement-card">
+
+                    <div class="video-wrapper">
+
+                        <video controls poster="{% static 'images/student1-poster.jpg' %}">
+
+                            <source src="{% static 'videos/3.mp4' %}"
+                                    type="video/mp4">
+
+                            Your browser does not support video.
+
+                        </video>
+
+                        <div class="achievement-badge">
+                            <i class="bi bi-trophy-fill"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="student-content">
+
+                        <span class="student-program">
+                            ACCA STUDENT
+                        </span>
+
+                        <h1>
+                            Abdul Rahman Sudais
+                        </h1>
+
+                        <p>
+                            My journey at PAC has helped me build confidence,
+                            improve my skills and move closer to my professional goals.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Student 2 -->
+            <div class="col-md-4">
+
+                <div class="achievement-card">
+
+                    <div class="video-wrapper">
+
+                        <video controls poster="{% static 'images/student2-poster.jpg' %}">
+
+                            <source src="{% static 'videos/mshaheer.mp4' %}"
+                                    type="video/mp4">
+
+                            Your browser does not support video.
+
+                        </video>
+
+                        <div class="achievement-badge">
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="student-content">
+
+                        <span class="student-program">
+                            CA STUDENT
+                        </span>
+
+                        <h1>
+                            Hasnain Kakar
+                        </h1>
+
+                        <p>
+                            PAC provided me with the right environment,
+                            guidance and support to pursue my professional journey.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Student 3 -->
+            <div class="col-md-4">
+
+                <div class="achievement-card">
+
+                    <div class="video-wrapper">
+
+                        <video controls poster="{% static 'images/student3-poster.jpg' %}">
+
+                            <source src="{% static 'videos/omer.mp4' %}"
+                                    type="video/mp4">
+
+                            Your browser does not support video.
+
+                        </video>
+
+                        <div class="achievement-badge">
+                            <i class="bi bi-award-fill"></i>
+                        </div>
+
+                    </div>
+
+
+                    <div class="student-content">
+
+                        <span class="student-program">
+                            ACCA STUDENT
+                        </span>
+
+                        <h1>
+                            Sidra Muntaha
+                        </h1>
+
+                        <p>
+                            The faculty and learning environment at PAC
+                            helped me become more confident and focused on my goals.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="achievement-cta">
+
+    <div class="container">
+
+        <h2>
+            Your Success Story Could Be Next
+        </h2>
+
+        <p>
+            Start your professional journey with PAC today.
+        </p>
+
+        <a href="#contact" class="achievement-btn">
+            Start Your Journey
+            <i class="bi bi-arrow-right"></i>
+        </a>
+
+    </div>
+
+</section>
+
+{% endblock %}

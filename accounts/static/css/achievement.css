@@ -1,0 +1,409 @@
+/* =========================
+   ACHIEVEMENT HERO
+========================= */
+
+.achievement-hero {
+
+    min-height: 430px;
+
+    display: flex;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 100px 20px;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            rgba(5, 30, 18, 0.96),
+            rgba(13, 70, 42, 0.90)
+        ),
+
+        url("../images/campus.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    color: white;
+
+}
+
+
+.achievement-tag {
+
+    display: inline-block;
+
+    padding: 8px 18px;
+
+    border: 1px solid rgba(255,255,255,0.4);
+
+    border-radius: 50px;
+
+    font-size: 13px;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.achievement-hero h1 {
+
+    font-size: clamp(42px, 6vw, 78px);
+
+    font-weight: 800;
+
+    line-height: 1.1;
+
+    margin-bottom: 25px;
+
+}
+
+
+.achievement-hero h1 span {
+
+    color: #f2b705;
+
+}
+
+
+.achievement-hero p {
+
+    max-width: 700px;
+
+    margin: auto;
+
+    font-size: 18px;
+
+    line-height: 1.7;
+
+    opacity: 0.85;
+
+}
+
+
+/* =========================
+   ACHIEVEMENT SECTION
+========================= */
+
+.student-achievements {
+
+    padding: 110px 0;
+
+    background: #f7f9fc;
+
+}
+
+
+.section-heading {
+
+    text-align: center;
+
+    margin-bottom: 60px;
+
+}
+
+
+.section-heading span {
+
+    color: #0c6b3c;
+
+    font-size: 13px;
+
+    letter-spacing: 3px;
+
+    font-weight: 700;
+
+}
+
+
+.section-heading h2 {
+
+    font-size: 46px;
+
+    font-weight: 800;
+
+    margin: 15px 0;
+
+    color: #17221c;
+
+}
+
+
+.section-heading h2 strong {
+
+    color: #0c6b3c;
+
+}
+
+
+.section-heading p {
+
+    color: #68736d;
+
+    font-size: 17px;
+
+}
+
+
+/* =========================
+   ACHIEVEMENT CARD
+========================= */
+
+.achievement-card {
+
+    height: 100%;
+
+    background: white;
+
+    border-radius: 22px;
+
+    overflow: hidden;
+
+    border: 1px solid #e6ebe8;
+
+    box-shadow: 0 15px 40px rgba(0,0,0,0.07);
+
+    transition: all 0.4s ease;
+
+}
+
+
+.achievement-card:hover {
+
+    transform: translateY(-12px);
+
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+
+}
+
+
+/* =========================
+   VIDEO
+========================= */
+
+.video-wrapper {
+
+    position: relative;
+
+    height: 270px;
+
+    overflow: hidden;
+
+    background: #111;
+
+}
+
+
+.video-wrapper video {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+}
+
+
+.achievement-badge {
+
+    position: absolute;
+
+    top: 18px;
+
+    right: 18px;
+
+    width: 48px;
+
+    height: 48px;
+
+    border-radius: 50%;
+
+    background: #f2b705;
+
+    color: #17221c;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 20px;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.25);
+
+}
+
+
+/* =========================
+   STUDENT CONTENT
+========================= */
+
+.student-content {
+
+    padding: 28px;
+
+}
+
+
+.student-program {
+
+    font-size: 12px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+    color: #0c6b3c;
+
+}
+
+
+.student-content h1 {
+
+    font-size: 26px;
+
+    font-weight: 800;
+
+    color: #17221c;
+
+    margin: 10px 0 15px;
+
+}
+
+
+.student-content p {
+
+    color: #68736d;
+
+    line-height: 1.7;
+
+    margin: 0;
+
+}
+
+
+/* =========================
+   CTA
+========================= */
+
+.achievement-cta {
+
+    padding: 90px 20px;
+
+    text-align: center;
+
+    background:
+
+        linear-gradient(
+            135deg,
+            #063d25,
+            #0c6b3c
+        );
+
+    color: white;
+
+}
+
+
+.achievement-cta h2 {
+
+    font-size: 42px;
+
+    font-weight: 800;
+
+}
+
+
+.achievement-cta p {
+
+    font-size: 18px;
+
+    opacity: 0.85;
+
+    margin: 15px 0 30px;
+
+}
+
+
+.achievement-btn {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding: 14px 28px;
+
+    background: #f2b705;
+
+    color: #17221c;
+
+    text-decoration: none;
+
+    border-radius: 50px;
+
+    font-weight: 700;
+
+    transition: all 0.3s ease;
+
+}
+
+
+.achievement-btn:hover {
+
+    transform: translateY(-3px);
+
+    background: white;
+
+    color: #0c6b3c;
+
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .achievement-hero {
+
+        min-height: 380px;
+
+        padding: 70px 20px;
+
+    }
+
+
+    .section-heading h2 {
+
+        font-size: 34px;
+
+    }
+
+
+    .achievement-cta h2 {
+
+        font-size: 32px;
+
+    }
+
+
+    .video-wrapper {
+
+        height: 250px;
+
+    }
+
+}
