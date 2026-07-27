@@ -40,73 +40,45 @@
     position: relative;
 }
 
-.nav-item.dropdown-hover .about-dropdown {
+.about-dropdown,
+.program-dropdown {
     position: absolute;
     top: 100%;
     left: 0;
     width: 220px;
+
     background: white;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 
     opacity: 0;
     visibility: hidden;
     transform: translateY(10px);
+
     transition: all 0.3s ease;
     z-index: 9999;
 }
 
-.nav-item.dropdown-hover:hover .about-dropdown {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-
-.nav-item.dropdown-hover .about-dropdown a {
-    display: block;
-    padding: 12px 15px;
-    color: #333;
-    text-decoration: none;
-}
-
-.nav-item.dropdown-hover .about-dropdown a:hover {
-    background: #f1f5f9;
-    color: #2563eb;
-}
-/* Program dropdown*/
-
-.nav-item.dropdown-hover .program-dropdown {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 220px;
-    background: white;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(10px);
-    transition: all 0.3s ease;
-    z-index: 9999;
-}
-
+.nav-item.dropdown-hover:hover .about-dropdown,
 .nav-item.dropdown-hover:hover .program-dropdown {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
 
-.nav-item.dropdown-hover .program-dropdown a {
+.about-dropdown a,
+.program-dropdown a {
     display: block;
     padding: 12px 15px;
+
     color: #333;
     text-decoration: none;
 }
 
-.nav-item.dropdown-hover .program-dropdown a:hover {
+.about-dropdown a:hover,
+.program-dropdown a:hover {
     background: #f1f5f9;
     color: #2563eb;
 }
