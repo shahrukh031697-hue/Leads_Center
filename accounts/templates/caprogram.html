@@ -1,10 +1,801 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- ================= HERO SECTION ================= -->
+
+<section class="ca-hero">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <!-- Left Content -->
+
+            <div class="col-lg-7">
+
+                <div class="ca-badge">
+                    <span></span>
+                    ICAP QUALIFICATION
+                </div>
+
+                <h1>
+                    Build Your Future
+                    <strong>With Chartered Accountancy</strong>
+                </h1>
+
+                <p class="ca-hero-text">
+
+                    Become a globally recognized Chartered Accountant
+                    and unlock opportunities in business, finance,
+                    leadership and entrepreneurship.
+
+                </p>
+
+                <div class="ca-hero-buttons">
+
+                    <a href="#ca-levels"
+                       class="btn-ca-primary">
+
+                        Explore CA Levels
+                        <i class="bi bi-arrow-down"></i>
+
+                    </a>
+
+                    <a href="#why-ca"
+                       class="btn-ca-outline">
+
+                        Why Choose CA?
+                        <i class="bi bi-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Right Visual -->
+
+            <div class="col-lg-5">
+
+                <div class="ca-hero-visual">
+
+                    <div class="ca-circle"></div>
+
+                    <div class="ca-logo-card">
+
+                        <img src="{% static 'images/icaplogo.jpg' %}"
+                             alt="ICAP Logo">
+
+                    </div>
+
+                    <div class="ca-big-text">
+                        CA
+                    </div>
+
+                    <div class="floating-card card-one">
+
+                        <i class="bi bi-briefcase"></i>
+
+                        <div>
+                            <strong>Global Recognition</strong>
+                            <small>Professional Qualification</small>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card card-two">
+
+                        <i class="bi bi-graph-up-arrow"></i>
+
+                        <div>
+                            <strong>Career Growth</strong>
+                            <small>Unlimited Opportunities</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= INTRODUCTION ================= -->
+
+<section class="ca-intro-section">
+
+    <div class="container">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+
+                <div class="section-label">
+                    ABOUT THE QUALIFICATION
+                </div>
+
+                <h2 class="section-title">
+
+                    More Than A Qualification.
+                    <span>A Career For Life.</span>
+
+                </h2>
+
+                <p class="section-text">
+
+                    Chartered Accountancy is one of the most prestigious
+                    professional qualifications in Pakistan and around
+                    the world.
+
+                </p>
+
+                <p class="section-text">
+
+                    It develops expertise in accounting, finance,
+                    taxation, audit, business strategy and leadership,
+                    preparing students for high-impact careers across
+                    industries.
+
+                </p>
+
+                <div class="recognition-box">
+
+                    <i class="bi bi-award"></i>
+
+                    <div>
+
+                        <strong>
+                            Regulated by ICAP
+                        </strong>
+
+                        <p>
+                            Institute of Chartered Accountants of Pakistan
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <div class="career-card">
+
+                    <div class="career-card-header">
+
+                        <span>
+                            YOUR CAREER CAN LEAD TO
+                        </span>
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </div>
+
+                    <div class="career-grid">
+
+                        <div class="career-item">
+                            <i class="bi bi-building"></i>
+                            <span>CFO</span>
+                        </div>
+
+                        <div class="career-item">
+                            <i class="bi bi-bar-chart"></i>
+                            <span>Financial Analyst</span>
+                        </div>
+
+                        <div class="career-item">
+                            <i class="bi bi-shield-check"></i>
+                            <span>Auditor</span>
+                        </div>
+
+                        <div class="career-item">
+                            <i class="bi bi-lightbulb"></i>
+                            <span>Entrepreneur</span>
+                        </div>
+
+                        <div class="career-item">
+                            <i class="bi bi-bank"></i>
+                            <span>Tax Consultant</span>
+                        </div>
+
+                        <div class="career-item">
+                            <i class="bi bi-globe2"></i>
+                            <span>Global Career</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ELIGIBILITY ================= -->
+
+<section class="eligibility-section">
+
+    <div class="container">
+
+        <div class="eligibility-card">
+
+            <div>
+
+                <div class="section-label">
+                    START YOUR JOURNEY
+                </div>
+
+                <h2>
+                    Who Can Start CA?
+                </h2>
+
+                <p>
+                    Your journey towards becoming a Chartered Accountant
+                    can begin from different academic backgrounds.
+                </p>
+
+            </div>
+
+
+            <div class="eligibility-options">
+
+                <div class="eligibility-item">
+
+                    <i class="bi bi-mortarboard-fill"></i>
+
+                    <span>
+                        Intermediate
+                    </span>
+
+                </div>
+
+                <div class="eligibility-item">
+
+                    <i class="bi bi-book"></i>
+
+                    <span>
+                        A-Levels
+                    </span>
+
+                </div>
+
+                <div class="eligibility-item">
+
+                    <i class="bi bi-award"></i>
+
+                    <span>
+                        Bachelor's
+                    </span>
+
+                </div>
+
+                <div class="eligibility-item">
+
+                    <i class="bi bi-calculator"></i>
+
+                    <span>
+                        ACCA
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CA LEVELS ================= -->
+
+<section class="ca-levels-section"
+         id="ca-levels">
+
+    <div class="container">
+
+        <div class="text-center section-heading">
+
+            <div class="section-label">
+                THE JOURNEY
+            </div>
+
+            <h2 class="section-title">
+                Your Path To Becoming
+                <span>A Chartered Accountant</span>
+            </h2>
+
+            <p>
+                A structured professional journey designed to build
+                knowledge, expertise and leadership.
+            </p>
+
+        </div>
+
+
+        <div class="ca-roadmap">
+
+
+            <!-- PRC -->
+
+            <div class="level-card">
+
+                <div class="level-number">
+                    01
+                </div>
+
+                <div class="level-content">
+
+                    <div class="level-top">
+
+                        <div>
+
+                            <span class="level-tag">
+                                FOUNDATION
+                            </span>
+
+                            <h3>
+                                Pre-Requisite Competencies
+                            </h3>
+
+                        </div>
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </div>
+
+                    <div class="subjects">
+
+                        <span>
+                            PRC-1
+                            <small>Fundamentals of Accounting</small>
+                        </span>
+
+                        <span>
+                            PRC-2
+                            <small>Quantitative Analysis</small>
+                        </span>
+
+                        <span>
+                            PRC-3
+                            <small>Business & Economics</small>
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CAF -->
+
+            <div class="level-card featured-level">
+
+                <div class="level-number">
+                    02
+                </div>
+
+                <div class="level-content">
+
+                    <div class="level-top">
+
+                        <div>
+
+                            <span class="level-tag">
+                                CORE PROFESSIONAL
+                            </span>
+
+                            <h3>
+                                Certificate in Accounting & Finance
+                            </h3>
+
+                        </div>
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </div>
+
+                    <div class="subject-groups">
+
+                        <div>
+
+                            <strong>
+                                GROUP A
+                            </strong>
+
+                            <p>
+                                Financial Reporting
+                            </p>
+
+                            <p>
+                                Taxation Principles
+                            </p>
+
+                            <p>
+                                Data, Systems & Risks
+                            </p>
+
+                            <p>
+                                Business Law Dynamics
+                            </p>
+
+                        </div>
+
+                        <div>
+
+                            <strong>
+                                GROUP B
+                            </strong>
+
+                            <p>
+                                Management Accounting
+                            </p>
+
+                            <p>
+                                Corporate Reporting
+                            </p>
+
+                            <p>
+                                Business Insights & Analysis
+                            </p>
+
+                            <p>
+                                Audit & Assurance
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CFAP -->
+
+            <div class="level-card">
+
+                <div class="level-number">
+                    03
+                </div>
+
+                <div class="level-content">
+
+                    <div class="level-top">
+
+                        <div>
+
+                            <span class="level-tag">
+                                ADVANCED LEVEL
+                            </span>
+
+                            <h3>
+                                CFAP
+                            </h3>
+
+                        </div>
+
+                        <i class="bi bi-arrow-up-right"></i>
+
+                    </div>
+
+                    <div class="subjects">
+
+                        <span>
+                            CFAP
+                            <small>Advanced Corporate Reporting</small>
+                        </span>
+
+                        <span>
+                            CFAP
+                            <small>Corporate Laws & Governance</small>
+                        </span>
+
+                        <span>
+                            CFAP
+                            <small>Strategic Business Finance</small>
+                        </span>
+
+                        <span>
+                            CFAP
+                            <small>Audit, Assurance & Data</small>
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- CASE STUDY -->
+
+            <div class="level-card">
+
+                <div class="level-number">
+                    04
+                </div>
+
+                <div class="level-content">
+
+                    <div class="level-top">
+
+                        <div>
+
+                            <span class="level-tag">
+                                FINAL STAGE
+                            </span>
+
+                            <h3>
+                                Strategic Case Study
+                            </h3>
+
+                        </div>
+
+                        <i class="bi bi-trophy"></i>
+
+                    </div>
+
+                    <p class="level-description">
+
+                        Apply your professional knowledge,
+                        analytical thinking and business understanding
+                        to real-world situations.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY CA ================= -->
+
+<section class="why-ca-section"
+         id="why-ca">
+
+    <div class="container">
+
+        <div class="text-center section-heading">
+
+            <div class="section-label">
+                WHY CHOOSE CA?
+            </div>
+
+            <h2 class="section-title">
+
+                A Qualification That
+                <span>Opens Doors</span>
+
+            </h2>
+
+        </div>
+
+
+        <div class="row g-4">
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        <i class="bi bi-globe2"></i>
+                    </div>
+
+                    <h3>
+                        International Recognition
+                    </h3>
+
+                    <p>
+                        A globally respected professional qualification
+                        recognized across industries and countries.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        <i class="bi bi-graph-up-arrow"></i>
+                    </div>
+
+                    <h3>
+                        High Career Growth
+                    </h3>
+
+                    <p>
+                        Build a career that can lead to senior management,
+                        finance and leadership positions.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        <i class="bi bi-cash-stack"></i>
+                    </div>
+
+                    <h3>
+                        Highly Rewarding
+                    </h3>
+
+                    <p>
+                        Develop expertise that creates valuable
+                        professional and entrepreneurial opportunities.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        <i class="bi bi-person-workspace"></i>
+                    </div>
+
+                    <h3>
+                        Leadership Opportunities
+                    </h3>
+
+                    <p>
+                        Grow into roles such as CFO, CEO, consultant,
+                        partner or business leader.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        <i class="bi bi-clock-history"></i>
+                    </div>
+
+                    <h3>
+                        Future-Proof Career
+                    </h3>
+
+                    <p>
+                        Gain skills in accounting, technology, analytics,
+                        strategy and business.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-4 col-md-6">
+
+                <div class="benefit-card">
+
+                    <div class="benefit-icon">
+                        <i class="bi bi-rocket-takeoff"></i>
+                    </div>
+
+                    <h3>
+                        Become Your Own Boss
+                    </h3>
+
+                    <p>
+                        Chartered Accountancy also opens doors to private
+                        practice and entrepreneurship.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="ca-cta">
+
+    <div class="container">
+
+        <div class="cta-content">
+
+            <div>
+
+                <span>
+                    YOUR FUTURE STARTS TODAY
+                </span>
+
+                <h2>
+                    Ready To Begin Your CA Journey?
+                </h2>
+
+            </div>
+
+            <a href="#contact"
+               class="btn-ca-primary">
+
+                Apply Now
+                <i class="bi bi-arrow-right"></i>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
