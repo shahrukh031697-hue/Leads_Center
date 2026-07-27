@@ -39,8 +39,8 @@ def contact(request):
 def principal_message(request):
     return render(request, 'principal_message.html')
 
-def caprogram(request):
+def ca_program(request):
     return render(request, 'caprogram.html')
 
-def accaprogram(request):
+def acca_program(request):
     return render(request, 'accaprogram.html')

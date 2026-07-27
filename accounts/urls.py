@@ -13,11 +13,11 @@ urlpatterns = [
     ),
 path(
         'caprogram/',
-        views.caprogram(),
-        name='principal_message'
+        views.ca_program(),
+        name='caprogram'
     ),
 path(
-        'accaprogram/',
+        'acca_program/',
         views.accaprogram(),
         name='accaprogram'
     ),
