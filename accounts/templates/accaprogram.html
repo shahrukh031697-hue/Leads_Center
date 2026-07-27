@@ -1,10 +1,605 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% load static %}
 
-</body>
-</html>
+{% block title %}ACCA Program | PAC Peshawar{% endblock %}
+
+{% block content %}
+
+<!-- ================= HERO ================= -->
+
+<section class="acca-hero">
+
+    <div class="acca-hero-pattern"></div>
+
+    <div class="container">
+
+        <div class="acca-hero-content">
+
+            <div class="acca-logo-box">
+                <img src="{% static 'images/acca-logo.png' %}" alt="ACCA Logo">
+                <span>Approved Learning Partner</span>
+            </div>
+
+            <p class="acca-eyebrow">
+                GLOBAL PROFESSIONAL ACCOUNTING QUALIFICATION
+            </p>
+
+            <h1>
+                Build Your Future<br>
+                With <span>ACCA</span>
+            </h1>
+
+            <p class="acca-hero-text">
+                The Association of Chartered Certified Accountants is a globally
+                recognized professional accounting qualification that prepares
+                ambitious individuals for successful careers in finance,
+                accounting, auditing and business management.
+            </p>
+
+            <div class="acca-hero-buttons">
+
+                <a href="#modules" class="acca-btn-primary">
+                    Explore Modules
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+
+                <a href="#why-acca" class="acca-btn-outline">
+                    Why Choose ACCA?
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<section class="acca-stats">
+
+    <div class="container">
+
+        <div class="acca-stats-grid">
+
+            <div class="acca-stat">
+                <strong>180+</strong>
+                <span>Countries</span>
+            </div>
+
+            <div class="acca-stat">
+                <strong>526,000+</strong>
+                <span>Students Worldwide</span>
+            </div>
+
+            <div class="acca-stat">
+                <strong>252,500+</strong>
+                <span>Members</span>
+            </div>
+
+            <div class="acca-stat">
+                <strong>2.5 Years</strong>
+                <span>Completion Duration</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY ACCA ================= -->
+
+<section class="why-acca-section" id="why-acca">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p>WHY ACCA?</p>
+
+            <h2>
+                A Qualification That
+                <span>Opens Global Doors</span>
+            </h2>
+
+            <div class="heading-line"></div>
+
+        </div>
+
+
+        <div class="acca-benefits-grid">
+
+            <div class="acca-benefit-card">
+
+                <div class="benefit-icon">
+                    <i class="bi bi-globe2"></i>
+                </div>
+
+                <h3>Global Recognition</h3>
+
+                <p>
+                    ACCA is one of the world's largest and fastest-growing
+                    professional accounting bodies, recognized across 180 countries.
+                </p>
+
+            </div>
+
+
+            <div class="acca-benefit-card">
+
+                <div class="benefit-icon">
+                    <i class="bi bi-clock-history"></i>
+                </div>
+
+                <h3>Complete in 2.5 Years</h3>
+
+                <p>
+                    With a structured study plan and dedication, you can complete
+                    the qualification in approximately two and a half years.
+                </p>
+
+            </div>
+
+
+            <div class="acca-benefit-card">
+
+                <div class="benefit-icon">
+                    <i class="bi bi-laptop"></i>
+                </div>
+
+                <h3>Computer Based Exams</h3>
+
+                <p>
+                    ACCA uses modern computer-based examinations and innovative
+                    assessment methods.
+                </p>
+
+            </div>
+
+
+            <div class="acca-benefit-card">
+
+                <div class="benefit-icon">
+                    <i class="bi bi-mortarboard"></i>
+                </div>
+
+                <h3>BSc Degree Opportunity</h3>
+
+                <p>
+                    Eligible ACCA students, affiliates and members can study for a
+                    BSc Professional Accountancy degree with the University of London.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ELIGIBILITY ================= -->
+
+<section class="eligibility-section">
+
+    <div class="container">
+
+        <div class="eligibility-wrapper">
+
+            <div class="eligibility-content">
+
+                <p class="small-title">
+                    START YOUR JOURNEY
+                </p>
+
+                <h2>
+                    Who Can
+                    <span>Study ACCA?</span>
+                </h2>
+
+                <p>
+                    ACCA offers flexible entry routes for students from different
+                    educational backgrounds.
+                </p>
+
+                <ul class="eligibility-list">
+
+                    <li>
+                        <i class="bi bi-check-circle-fill"></i>
+                        O/A Levels & GCSEs
+                    </li>
+
+                    <li>
+                        <i class="bi bi-check-circle-fill"></i>
+                        Intermediate Students
+                    </li>
+
+                    <li>
+                        <i class="bi bi-check-circle-fill"></i>
+                        Graduates
+                    </li>
+
+                    <li>
+                        <i class="bi bi-check-circle-fill"></i>
+                        Exemptions available for prior learning
+                    </li>
+
+                </ul>
+
+                <a href="#modules" class="acca-btn-primary">
+                    View ACCA Structure
+                </a>
+
+            </div>
+
+
+            <div class="eligibility-visual">
+
+                <div class="floating-card card-one">
+                    <i class="bi bi-award"></i>
+                    <strong>Global</strong>
+                    <span>Recognition</span>
+                </div>
+
+                <div class="floating-card card-two">
+                    <i class="bi bi-briefcase"></i>
+                    <strong>Career</strong>
+                    <span>Opportunities</span>
+                </div>
+
+                <div class="acca-circle">
+
+                    <span>ACCA</span>
+
+                    <small>
+                        PROFESSIONAL
+                        ACCOUNTANCY
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MODULES ================= -->
+
+<section class="modules-section" id="modules">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <p>ACCA QUALIFICATION STRUCTURE</p>
+
+            <h2>
+                Explore Your
+                <span>Learning Journey</span>
+            </h2>
+
+            <div class="heading-line"></div>
+
+        </div>
+
+
+        <div class="modules-layout">
+
+
+            <!-- LEFT SIDE -->
+
+            <div class="module-intro">
+
+                <div class="module-number">
+                    01
+                </div>
+
+                <h3>
+                    Foundation
+                    <span>Level</span>
+                </h3>
+
+                <p>
+                    Build your fundamental knowledge in accounting and finance
+                    before progressing to the Applied Knowledge level.
+                </p>
+
+                <div class="module-progress">
+
+                    <div class="progress-label">
+                        <span>Foundation</span>
+                        <span>4 Papers</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <span style="width: 25%;"></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- RIGHT SIDE -->
+
+            <div class="module-accordion">
+
+
+                <div class="module-box active">
+
+                    <button class="module-header">
+
+                        <div>
+                            <span class="module-tag">
+                                FOUNDATION
+                            </span>
+
+                            <h3>
+                                Foundation Level
+                            </h3>
+                        </div>
+
+                        <i class="bi bi-chevron-down"></i>
+
+                    </button>
+
+
+                    <div class="module-content">
+
+                        <div class="paper-row">
+                            <strong>FA1</strong>
+                            <span>Recording Financial Transactions</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>MA1</strong>
+                            <span>Management Information</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>FA2</strong>
+                            <span>Maintaining Financial Records</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>MA2</strong>
+                            <span>Managing Cost & Finance</span>
+                            <b>CBE</b>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="module-box">
+
+                    <button class="module-header">
+
+                        <div>
+
+                            <span class="module-tag">
+                                APPLIED KNOWLEDGE
+                            </span>
+
+                            <h3>
+                                Applied Knowledge
+                            </h3>
+
+                        </div>
+
+                        <i class="bi bi-chevron-down"></i>
+
+                    </button>
+
+
+                    <div class="module-content">
+
+                        <div class="paper-row">
+                            <strong>BT</strong>
+                            <span>Business & Technology</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>MA</strong>
+                            <span>Management Accounting</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>FA</strong>
+                            <span>Financial Accounting</span>
+                            <b>CBE</b>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="module-box">
+
+                    <button class="module-header">
+
+                        <div>
+
+                            <span class="module-tag">
+                                APPLIED SKILLS
+                            </span>
+
+                            <h3>
+                                Applied Skills
+                            </h3>
+
+                        </div>
+
+                        <i class="bi bi-chevron-down"></i>
+
+                    </button>
+
+
+                    <div class="module-content">
+
+                        <div class="paper-row">
+                            <strong>LW</strong>
+                            <span>Corporate & Business Law</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>PM</strong>
+                            <span>Performance Management</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>TX</strong>
+                            <span>Taxation</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>FR</strong>
+                            <span>Financial Reporting</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>AA</strong>
+                            <span>Audit & Assurance</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>FM</strong>
+                            <span>Financial Management</span>
+                            <b>CBE</b>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="module-box">
+
+                    <button class="module-header">
+
+                        <div>
+
+                            <span class="module-tag">
+                                STRATEGIC PROFESSIONAL
+                            </span>
+
+                            <h3>
+                                Strategic Professional
+                            </h3>
+
+                        </div>
+
+                        <i class="bi bi-chevron-down"></i>
+
+                    </button>
+
+
+                    <div class="module-content">
+
+                        <div class="paper-row">
+                            <strong>SBR</strong>
+                            <span>Strategic Business Reporting</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>SBL</strong>
+                            <span>Strategic Business Leader</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>AFM</strong>
+                            <span>Advanced Financial Management</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>APM</strong>
+                            <span>Advanced Performance Management</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>ATX</strong>
+                            <span>Advanced Taxation</span>
+                            <b>CBE</b>
+                        </div>
+
+                        <div class="paper-row">
+                            <strong>AAA</strong>
+                            <span>Advanced Audit & Assurance</span>
+                            <b>CBE</b>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="acca-cta">
+
+    <div class="container">
+
+        <div class="acca-cta-content">
+
+            <p>
+                YOUR GLOBAL CAREER STARTS HERE
+            </p>
+
+            <h2>
+                Ready to Start Your
+                <span>ACCA Journey?</span>
+            </h2>
+
+            <a href="#contact" class="acca-btn-light">
+                Apply Now
+                <i class="bi bi-arrow-right"></i>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<script src="{% static 'js/acca.js' %}"></script>
+
+{% endblock %}
